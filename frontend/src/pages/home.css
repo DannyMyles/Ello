@@ -1,0 +1,15 @@
+.hero_section{
+    background: url('https://cdn.prod.website-files.com/652e0352ad50feae8734edac/65642b22aff76e6b4c8c094e_Hero_D_video_comp-poster-00001.jpg') center no-repeat;
+    background-size: 100% 100%;
+    /* background-size: cover; */
+    background-position: center;
+
+}
+@media (min-width: 360px) and (max-width: 980px) {
+    .hero_section {
+        /* background: none; */
+        background: url('https://cdn.prod.website-files.com/652e0352ad50feae8734edac/65642b22aff76e6b4c8c094e_Hero_D_video_comp-poster-00001.jpg') no-repeat;
+        background-size: 100% 60%;
+        background-position: center;    
+    }
+}
